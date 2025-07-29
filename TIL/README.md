@@ -6,3 +6,4 @@
 
 <br></br>
 ## 목차
+[1. 파이썬 기본 문법](./BasicSyntax.md)
