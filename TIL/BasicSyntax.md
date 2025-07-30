@@ -29,3 +29,21 @@
 for idx, val in enumerate(lst):
     print(idx, val)
 ```
+
+<br></br>
+<br></br>
+
+## 3. 가변/불변 객체와 메서드
+
+### 리스트(list): 가변  
+  - 주요 메서드: `append()`, `extend()`, `remove()`, `sort()`, `reverse()`  
+  - 특징: 제자리 변경, 반환값 없음
+<br></br>
+### 문자열(str) & 튜플(tuple): 불변  
+  - 값을 직접 바꿀 수 없음 → **새 객체를 반환해야 함**
+  <br></br>
+
+### 정렬
+- **제자리 정렬:** `lst.sort()` (리스트 전용)
+- **새 정렬 반환:** `sorted(iterable)` (모든 시퀀스 가능)
+
