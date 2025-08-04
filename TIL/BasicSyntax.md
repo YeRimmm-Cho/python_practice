@@ -47,3 +47,26 @@ for idx, val in enumerate(lst):
 - **제자리 정렬:** `lst.sort()` (리스트 전용)
 - **새 정렬 반환:** `sorted(iterable)` (모든 시퀀스 가능)
 
+<br></br>
+<br></br>
+
+## 4. 문자열 메서드 활용
+### 자주 쓰는 메서드
+- s.strip() → 앞뒤 공백 제거
+
+- s.isdigit() → 숫자만 있는지 검사
+
+- s.isalpha() → 알파벳만 있는지 검사
+
+- s.isspace() → 공백 문자만 있는지 검사    
+<br></br>
+
+**인덱싱 / 슬라이싱**
+```python
+s[-1]   # 마지막 글자
+s[1:4]  # 1 ~ 3번째 글자
+```
+<br></br>
+**자주 한 실수**
+- 빈 문자열 검사에 .isspace() 사용 → 실패 (''은 False)
+- .index()를 인덱싱처럼 사용 → AttributeError
