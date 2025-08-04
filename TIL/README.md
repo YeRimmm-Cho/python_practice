@@ -6,4 +6,7 @@
 
 <br></br>
 ## 목차
-[1. 파이썬 기본 문법](./BasicSyntax.md)
+[1. 파이썬 기본 문법](./BasicSyntax.md)    
+<br>
+2. 알고리즘    
+  - [버블 정렬(Bubble Sort)](./Bubble_sort.md)
