@@ -10,4 +10,4 @@
 <br>
 2. 알고리즘    
   - [버블 정렬(Bubble Sort)](./Bubble_sort.md)
-  - [카운팅 정렬(Counting Sort](./Counting_sort.md)
+  - [카운팅 정렬(Counting Sort)](./Counting_sort.md)
